@@ -1,0 +1,23 @@
+{
+  "name": "bh3text-staticassets",
+  "version": "0.0.0",
+  "description": "",
+  "homepage": "https://github.com/mtxc26/bh3text-staticassets#readme",
+  "bugs": {
+    "url": "https://github.com/mtxc26/bh3text-staticassets/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtxc26/bh3text-staticassets.git"
+  },
+  "author": "",
+  "type": "module",
+  "scripts": {
+    "postinstall": "npm run install-all",
+    "install-all": "npm run install-runtime",
+    "install-runtime": "exit 0",
+    "build-runtime": "exit 0",
+    "build-only": "node build.js",
+    "build": "npm run build-runtime && npm run build-only"
+  }
+}

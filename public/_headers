@@ -1,0 +1,8 @@
+/*
+  cache-control: no-cache
+  Content-Security-Policy: default-src 'none'; frame-ancestors 'self' https://www.bh3text.com
+  Access-Control-Allow-Origin: *
+  Access-Control-Expose-Headers: Content-Encoding
+  Cross-Origin-Embedder-Policy: require-corp
+  Cross-Origin-Opener-Policy: same-origin
+  Cross-Origin-Resource-Policy: cross-origin
