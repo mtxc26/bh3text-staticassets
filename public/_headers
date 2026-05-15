@@ -1,8 +1,11 @@
 /*
   cache-control: no-cache
-  Content-Security-Policy: default-src 'none'; frame-ancestors 'self' https://www.bh3text.com
+  Content-Security-Policy: default-src 'none'; frame-ancestors 'self' https://www.bh3text.com; style-src 'self' 'unsafe-inline' data:
   Access-Control-Allow-Origin: *
   Access-Control-Expose-Headers: Content-Encoding
   Cross-Origin-Embedder-Policy: require-corp
   Cross-Origin-Opener-Policy: same-origin
   Cross-Origin-Resource-Policy: cross-origin
+
+/*.js
+  Content-Security-Policy: default-src 'none'; frame-ancestors 'self' https://www.bh3text.com; base-uri 'self'; script-src 'self' https://www.bh3text.com; style-src 'self' 'unsafe-inline' data:; connect-src 'self' https: blob: data:; worker-src 'self' https://www.bh3text.com
